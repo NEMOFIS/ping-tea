@@ -1,0 +1,13 @@
+{
+  "name": "ping-dapp",
+  "version": "1.0.0",
+  "description": "A simple Ping DApp",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "ethers": "^5.0.0"
+  }
+}
