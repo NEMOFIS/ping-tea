@@ -4,7 +4,7 @@ import contractABI from "./abi.js"; // Import the ABI
 // Tea Sepolia Network Info
 const provider = new ethers.JsonRpcProvider("https://tea-sepolia.g.alchemy.com/public");
 const signer = provider.getSigner(); // User's wallet
-const contractAddress = "0x67deAE4a36E7B2EB6C57d67A58b6981D10c28c4a"; // Replace with your deployed contract address
+const contractAddress = "0xd2009c31f10aF105CCb5294Ed73b78AC21e9e199"; // Replace with your deployed contract address
 
 // Create contract instance
 const contract = new ethers.Contract(contractAddress, contractABI, signer);
